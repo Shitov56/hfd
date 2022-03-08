@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    
+}
+
+*,
+*:before
+*:after{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+   background: rgb(58, 58, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+    
+}
+
+.logo__inners{
+    display: flex;
+  
+}
+
+.header__logo{
+    padding-left: 45px;
+font-size: 30px;
+font-weight: 700;
+color: rgb(255, 255, 255);
+
+}
+
+.img__logo{
+
+    width: 50px;
+    height: 50px;
+}
+
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top:20px;
+    display: inline-block;
+
+}
+
+.nav__link{
+    font-family: Arial, Helvetica, sans-serif ;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    text-decoration: none;
+  
+}
+
+
+
+.post{
+    padding-top:20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.post__name{
+    padding-bottom:20px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav__link:hover{
+    color: rgb(255, 0, 0);
+}
+
+.img__post{ 
+    width: 1000px;
+    border-radius: 15px;
+    height: 400px;
+}
+
+.texts__posts{
+    display: inline-block;
+    width: 1000px;
+}
+
+
+
+/* button{
+} */
+.st{
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
